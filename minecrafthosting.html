@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MineIDHost — Minecraft Hosting</title>
+  <link rel="stylesheet" href="assets/css/mch-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">MineIDHost</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="minecrafthosting.html" class="active">Minecraft Hosting</a>
+        <a href="#">VPS</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <a href="#order" class="btn primary">Order Now</a>
+      <button id="menu-toggle" class="menu-btn">☰</button>
+    </div>
+
+    <!-- 🔽 Menu versi mobile -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="minecrafthosting.html">Minecraft Hosting</a>
+      <a href="#">VPS</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#order" class="btn sm primary">Order Now</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== PAKET HOSTING ===== -->
+    <section id="packages" class="section products">
+      <div class="container">
+        <h2 class="section-title">Paket Minecraft</h2>
+
+        <div class="tab-menu">
+          <button class="tab-btn active" data-tab="basic">Basic</button>
+          <button class="tab-btn" data-tab="medium">Medium</button>
+          <button class="tab-btn" data-tab="hard">Hard</button>
+        </div>
+
+        <div class="tab-content">
+          <div class="tab-panel active" id="tab-basic">
+            <div class="products-grid">
+              <div class="card"><h4>Paket Basic-1</h4><p>1 vCPU • 1GB RAM • 10GB NVMe</p><div class="pprice">Rp14.900</div><a class="btn primary">Pesan</a></div>
+              <div class="card"><h4>Paket Basic-2</h4><p>1 vCPU • 2GB RAM • 15GB NVMe</p><div class="pprice">Rp19.900</div><a class="btn primary">Pesan</a></div>
+              <div class="card"><h4>Paket Basic-3</h4><p>1 vCPU • 3GB RAM • 20GB NVMe</p><div class="pprice">Rp24.900</div><a class="btn primary">Pesan</a></div>
+              <div class="card"><h4>Paket Basic-4</h4><p>1 vCPU • 4GB RAM • 25GB NVMe</p><div class="pprice">Rp29.900</div><a class="btn primary">Pesan</a></div>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="tab-medium">
+            <div class="products-grid">
+              <div class="card"><h4>Paket Medium-1</h4><p>2 vCPU • 4GB RAM • 40GB NVMe</p><div class="pprice">Rp39.900</div><a class="btn primary">Pesan</a></div>
+              <div class="card"><h4>Paket Medium-2</h4><p>2 vCPU • 6GB RAM • 60GB NVMe</p><div class="pprice">Rp49.900</div><a class="btn primary">Pesan</a></div>
+              <div class="card"><h4>Paket Medium-3</h4><p>2 vCPU • 8GB RAM • 80GB NVMe</p><div class="pprice">Rp59.900</div><a class="btn primary">Pesan</a></div>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="tab-hard">
+            <div class="products-grid">
+              <div class="card"><h4>Paket High-1</h4><p>4 vCPU • 8GB RAM • 100GB NVMe</p><div class="pprice">Rp79.900</div><a class="btn primary">Pesan</a></div>
+              <div class="card"><h4>Paket High-2</h4><p>4 vCPU • 12GB RAM • 150GB NVMe</p><div class="pprice">Rp99.900</div><a class="btn primary">Pesan</a></div>
+              <div class="card"><h4>Paket High-3</h4><p>4 vCPU • 16GB RAM • 200GB NVMe</p><div class="pprice">Rp119.900</div><a class="btn primary">Pesan</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== REVIEW ===== -->
+    <section id="reviews" class="section reviews">
+      <div class="container">
+        <h2 class="section-title">Apa Kata Mereka</h2>
+        <div class="review-slider">
+          <div class="review-card"><div class="stars">★★★★★</div><p>"Servernya stabil banget dan ping rendah. Recommended!"</p><strong>- RizalGaming</strong></div>
+          <div class="review-card"><div class="stars">★★★★★</div><p>"Harga murah tapi performa tinggi. Supportnya cepat!"</p><strong>- Naufal</strong></div>
+          <div class="review-card"><div class="stars">★★★★★</div><p>"Deploy instan dan panelnya mudah banget dipakai."</p><strong>- Vania</strong></div>
+          <div class="review-card"><div class="stars">★★★★★</div><p>"Kenceng dan aman, cocok buat server SMP!"</p><strong>- Farhan</strong></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>MineIDHost</h4>
+        <p>Hosting cepat, aman, dan berkualitas tinggi.</p>
+      </div>
+
+      <div>
+        <h4>Follow Us</h4>
+        <div class="socials">
+          <a href="https://wa.me/6282377658840" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://instagram.com/mineidhost.co.id" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://dsc.gg/mineidhost" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+          <a href="mailto:mineidhost@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Support</h4>
+        <a href="#">Contact</a><br>
+        <a href="#">TOS</a>
+      </div>
+    </div>
+    <div class="copy">© <span id="year"></span> MineIDHost — All rights reserved.</div>
+  </footer>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script src="mch-main.js"></script>
+</body>
+</html>

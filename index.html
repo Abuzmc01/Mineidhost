@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MineIDHost — Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<header class="nav">
+  <div class="nav-left">
+    <div class="profile">
+      <img src="assets/avatar.png" alt="MineIDHost avatar" class="avatar">
+      <span class="brand">MineIDHost</span>
+    </div>
+  </div>
+  <nav class="nav-right">
+    <a href="index.html">Home</a>
+    <a href="index.html#products">Products</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="index.html#trust">Trust</a>
+  </nav>
+  <div style="display:flex;gap:10px;align-items:center">
+    <a class="cta" href="#order">Get Started</a>
+    <button id="menu-toggle" class="menu-btn" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<!-- ========== MOBILE MENU ========== -->
+<aside class="mobile-panel" id="mobile-menu" aria-hidden="true">
+  <div class="close">✕</div>
+  <div class="panel-section">
+    <div class="collapse">Layanan Game Hosting</div>
+    <div class="collapse-list">
+      <a href="fivemhosting.html">FiveM Hosting</a>
+      <a href="arkhosting.html">ARK Hosting</a>
+      <a href="parworldhosting.html">Parworld Hosting</a>
+      <a href="valheimhosting.html">Valheim Hosting</a>
+      <a href="minecrafthosting.html">Minecraft Hosting</a>
+    </div>
+
+    <div class="collapse">VPS (KVM)</div>
+    <div class="collapse-list">
+      <a href="vps1.html">VPS 1</a>
+      <a href="vps2.html">VPS 2</a>
+      <a href="vps3.html">VPS 3</a>
+      <a href="vps4.html">VPS 4</a>
+      <a href="vps5.html">VPS 5</a>
+      <a href="vps6.html">VPS 6</a>
+      <a href="vps7.html">VPS 7</a>
+      <a href="vps8.html">VPS 8</a>
+      <a href="vps9.html">VPS 9</a>
+    </div>
+  </div>
+
+  <div class="panel-section">
+    <a href="tos.html">TOS</a>
+    <a href="contactme.html">Contact Me</a>
+    <a href="panel.html">Game Panel</a>
+    <a href="member.html">Member Area</a>
+  </div>
+
+  <div class="panel-section">
+    <h4>Contact & Social</h4>
+    <div class="social-icons">
+      <a href="https://wa.me/6282377658840"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com/mineidhost.co.id"><i class="fab fa-instagram"></i></a>
+      <a href="https://dsc.gg/mineidhost"><i class="fab fa-discord"></i></a>
+      <a href="mailto:mineidhost@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</aside>
+
+<!-- ========== HERO SECTION ========== -->
+<section id="home" class="hero parallax">
+  <div class="hero-content fade-up">
+    <h1>Hosting Cepat, Aman, dan Andal.</h1>
+    <p>Solusi server terbaik untuk website & game Anda — performa tinggi dengan harga terjangkau.</p>
+    <div class="hero-buttons">
+      <a href="#products" class="btn primary">Lihat Layanan</a>
+      <a href="#about" class="btn secondary">Pelajari Lebih</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRODUCTS ========== -->
+<section id="products" class="section fade-up">
+  <div class="container">
+    <h2 class="section-title">Layanan Kami</h2>
+    <p class="section-desc">Solusi hosting lengkap untuk berbagai kebutuhan Anda.</p>
+    <div class="grid">
+      <div class="card fade-up"><h4>Shared Hosting</h4><p>Ideal untuk website personal & bisnis kecil.</p><a class="btn sm" href="#">Pilih</a></div>
+      <div class="card fade-up delay"><h4>Cloud VPS</h4><p>Kinerja tinggi, sumber daya dedicated.</p><a class="btn sm" href="#">Pilih</a></div>
+      <div class="card fade-up delay2"><h4>WordPress Hosting</h4><p>Optimized for speed & security.</p><a class="btn sm" href="#">Pilih</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about" class="section fade-up">
+  <div class="container about-grid">
+    <div class="about-left">
+      <h2>Tentang Kami</h2>
+      <p>Kami menyediakan layanan hosting dengan uptime tinggi, keamanan premium, dan support profesional 24/7.</p>
+      <ul>
+        <li>Infrastruktur modern</li>
+        <li>Dukungan teknis cepat</li>
+        <li>Harga terjangkau</li>
+      </ul>
+    </div>
+    <div class="about-right">
+      <img src="assets/avatar.png" alt="Team" class="about-img">
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact" class="section fade-up">
+  <div class="container">
+    <h2 class="section-title">Hubungi Kami</h2>
+    <form class="contact-form fade-up delay">
+      <input type="text" placeholder="Nama" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="4" placeholder="Pesan Anda..." required></textarea>
+      <button type="submit" class="btn primary">Kirim</button>
+    </form>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer fade-up">
+  <p>© <span id="year"></span> MineIDHost — Semua hak dilindungi.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
